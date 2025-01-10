@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569136130529",
+    "project_id": "dmobile-73ad5",
+    "storage_bucket": "dmobile-73ad5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569136130529:android:0c00bc57ea80f87f0d8aa0",
+        "android_client_info": {
+          "package_name": "com.dog.dlkae"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIAxSaCKYj1FTtbHw3FWkGpMoNyhTLssE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

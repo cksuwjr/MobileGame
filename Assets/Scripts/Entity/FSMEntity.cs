@@ -11,16 +11,19 @@ using UnityEngine;
 public class FSMEntity : MonoBehaviour
 {
     [field: Header("Ω∫≈» ¡§∫∏")]
-    [field: SerializeField] public Status statData;
+    [field: SerializeField] public Status statData;  // Model
+
+    public AttackData basicAttack;
+    public AttackData skill;
 }
 
 public abstract class BaseState
 {
-    protected FSMEntity monster;
+    protected FSMEntity _entity;
 
-    protected BaseState(FSMEntity monster)
+    protected BaseState(FSMEntity entity)
     {
-        this.monster = monster;
+        _entity = entity;
     }
 
     public abstract void OnStateEnter();

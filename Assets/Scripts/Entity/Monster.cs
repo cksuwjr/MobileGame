@@ -15,10 +15,6 @@ public class Monster : FSMEntity
 
     protected StateChanger _changer;
 
-    private void Awake()
-    {
-        statData = GetComponent<Status>();
-    }
 
     private void Start()
     {
